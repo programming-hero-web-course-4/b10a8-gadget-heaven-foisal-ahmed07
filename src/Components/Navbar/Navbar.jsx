@@ -2,7 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { FaCartShopping } from "react-icons/fa6";
 import { FaRegHeart } from "react-icons/fa";
-import { FaBars } from "react-icons/fa6";
+import Banner from "../Banner/Banner";
+
 
 const Navbar = () => {
   return (
@@ -10,7 +11,7 @@ const Navbar = () => {
       <div className="navbar flex justify-between items-center">
         <div className="">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -56,6 +57,7 @@ const Navbar = () => {
           </button>
         </div>
       </div>
+      <Banner></Banner>
     </div>
   );
 };
