@@ -1,9 +1,9 @@
 import React from "react";
-
+import bannerImg from "../../assets/banner.jpg";
 const Banner = () => {
   return (
     <div>
-      <div className="space-y-5">
+      <div className="space-y-5 px-10 -mt-10 bg-[#9538E2] w-11/12 mx-auto rounded-3xl pt-10 pb-64 ">
         <h2 className="text-white text-6xl font-bold text-center">
           Upgrade Your Tech Accessorize with <br /> Gadget Heaven Accessories
         </h2>
@@ -18,6 +18,14 @@ const Banner = () => {
             Shop Now
           </button>
         </div>
+      </div>
+
+      <div className="relative md:-top-56 -top-20">
+        <img
+          className="w-4/6 border p-3 border-stone-100 mx-auto rounded-3xl bg-white/40"
+          src={bannerImg}
+          alt=""
+        />
       </div>
     </div>
   );

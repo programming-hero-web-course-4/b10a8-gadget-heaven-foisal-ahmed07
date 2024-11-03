@@ -1,12 +1,16 @@
-import React from 'react';
+import React from "react";
+import Banner from "../Banner/Banner";
+import Gadget from "../Gadget/Gadget";
+
 
 const Home = () => {
-    return (
-        <div>
-            <h2>home</h2>
-            
-        </div>
-    );
+
+  return (
+    <div >
+      <Banner></Banner>
+      <Gadget></Gadget>
+    </div>
+  );
 };
 
 export default Home;

@@ -1,0 +1,172 @@
+[
+  {
+    "product_id": 1,
+    "product_title": "iPhone 15 Pro",
+    "product_image": "https://i.ibb.co.com/RptRBBP/Apple-i-Phone-15-Pro-Max.jpg",
+    "category": "iPhone",
+    "price": 999.99,
+    "description": "The latest iPhone model with advanced camera system, A17 Bionic chip, and 5G capabilities.",
+    "specification": [
+      "6.1-inch OLED display",
+      "128GB storage",
+      "A17 Bionic chip",
+      "Triple-camera system",
+      "5G support"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 2,
+    "product_title": "iPhone 14",
+    "product_image": "https://i.ibb.co.com/19f1QG8/iphn14.webp",
+    "category": "iPhone",
+    "price": 899.99,
+    "description": "Powerful and affordable iPhone with excellent camera and A15 Bionic performance.",
+    "specification": [
+      "6.1-inch Super Retina XDR display",
+      "128GB storage",
+      "A15 Bionic chip",
+      "Dual-camera system",
+      "5G support"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 3,
+    "product_title": "iPhone 13 Mini",
+    "product_image": "https://i.ibb.co.com/Tbtx0d1/13mini.jpg",
+    "category": "iPhone",
+    "price": 729.99,
+    "description": "Compact yet powerful with A15 Bionic chip and excellent camera quality.",
+    "specification": [
+      "5.4-inch Super Retina XDR display",
+      "128GB storage",
+      "A15 Bionic chip",
+      "Dual-camera system",
+      "5G support"
+    ],
+    "availability": false,
+    "rating": 4.5
+  },
+  {
+    "product_id": 4,
+    "product_title": "iPhone SE (3rd Generation)",
+    "product_image": "https://i.ibb.co.com/1Lf1ZhN/se.jpg",
+    "category": "iPhone",
+    "price": 499.99,
+    "description": "Affordable iPhone model with classic design and fast performance.",
+    "specification": [
+      "4.7-inch Retina HD display",
+      "64GB storage",
+      "A15 Bionic chip",
+      "Single-camera system",
+      "4G LTE support"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": 5,
+    "product_title": "iPhone 12 Pro",
+    "product_image": "https://i.ibb.co.com/1MshC5Y/i-Phone-12-Pro.jpg",
+    "category": "iPhone",
+    "price": 849.99,
+    "description": "Premium iPhone model with powerful camera system and 5G support.",
+    "specification": [
+      "6.1-inch Super Retina XDR display",
+      "128GB storage",
+      "A14 Bionic chip",
+      "Triple-camera system",
+      "5G support"
+    ],
+    "availability": false,
+    "rating": 4.6
+  },
+  {
+    "product_id": 6,
+    "product_title": "iPhone 12",
+    "product_image": "https://i.ibb.co.com/7jfpNpf/ihn12.jpg",
+    "category": "iPhone",
+    "price": 799.99,
+    "description": "Powerful and sleek iPhone with excellent display and performance.",
+    "specification": [
+      "6.1-inch Super Retina XDR display",
+      "64GB storage",
+      "A14 Bionic chip",
+      "Dual-camera system",
+      "5G support"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 7,
+    "product_title": "MacBook Air M2",
+    "product_image": "https://i.ibb.co.com/qkXpC8X/Mac-Book-Air-M2.jpg",
+    "category": "MacBook",
+    "price": 1199.99,
+    "description": "Slim and lightweight laptop powered by the M2 chip for enhanced performance and battery life.",
+    "specification": [
+      "13.6-inch Retina display",
+      "M2 chip",
+      "8GB RAM",
+      "256GB SSD",
+      "Up to 18 hours of battery life"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 8,
+    "product_title": "MacBook Pro 14” M1 Pro",
+    "product_image": "https://i.ibb.co.com/StHzCp1/Macbook-Pro-M1.webp",
+    "category": "MacBook",
+    "price": 1999.99,
+    "description": "High-performance laptop with M1 Pro chip and Liquid Retina XDR display.",
+    "specification": [
+      "14-inch Liquid Retina XDR display",
+      "M1 Pro chip",
+      "16GB RAM",
+      "512GB SSD",
+      "Up to 17 hours of battery life"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 9,
+    "product_title": "AirPods Pro (2nd Generation)",
+    "product_image": "https://i.ibb.co.com/fXM6cd3/ipod.jpg",
+    "category": "Earbuds",
+    "price": 249.99,
+    "description": "Noise-cancelling wireless earbuds with improved sound quality and battery life.",
+    "specification": [
+      "Active Noise Cancellation",
+      "Transparency mode",
+      "Spatial audio",
+      "Up to 6 hours of listening time",
+      "Water and sweat resistant"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 10,
+    "product_title": "Sony WF-1000XM4 Earbuds",
+    "product_image": "https://i.ibb.co.com/br8KrsV/sony-wf.jpg",
+    "category": "Earbuds",
+    "price": 279.99,
+    "description": "Premium noise-cancelling earbuds with high-resolution audio and excellent battery life.",
+    "specification": [
+      "Active Noise Cancellation",
+      "Hi-Res audio support",
+      "Bluetooth 5.2",
+      "Up to 8 hours of listening time",
+      "Water-resistant design"
+    ],
+    "availability": false,
+    "rating": 4.5
+  }
+]
