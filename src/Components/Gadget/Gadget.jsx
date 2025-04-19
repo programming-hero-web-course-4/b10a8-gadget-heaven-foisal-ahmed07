@@ -1,4 +1,5 @@
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
+import CategoryBtn from "../CategoryBtn/CategoryBtn";
 
 const Gadget = () => {
   const gadgets = useLoaderData();
@@ -11,14 +12,17 @@ const Gadget = () => {
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
         {/* category btn */}
         <div className="col-span-1">
-          <h2>sdf</h2>
+          <Link to={'./CategoryBtn'}> <CategoryBtn gadgets={gadgets}></CategoryBtn> </Link>
         </div>
         {/* card  */}
         <div className="col-span-3">
           {/* per card */}
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 ">
             {gadgets.map((gadget) => (
-              <div className=" p-6 bg-white shadow-xl rounded-xl space-y-3">
+              <div
+                key={gadget.product_id}
+                className=" p-6 bg-white shadow-xl rounded-xl space-y-3"
+              >
                 <img
                   className="w-[280px] h-[180px] rounded-xl"
                   src={gadget.product_image}

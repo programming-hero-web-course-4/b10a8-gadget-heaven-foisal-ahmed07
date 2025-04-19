@@ -8,6 +8,7 @@ import Statistics from "./Components/Statistics/Statistics";
 import Dashboard from "./Components/DashBoard/Dashboard";
 import Gadget from "./Components/Gadget/Gadget";
 import Error from "./Components/Error/Error";
+import CategoryBtn from "./Components/CategoryBtn/CategoryBtn";
 
 const router = createBrowserRouter([
   {
@@ -18,15 +19,17 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        loader: () => fetch("/gadget.json"),    
+        loader: () => fetch("/gadget.json"),
       },
       {
         path: "/gadget",
         element: <Gadget></Gadget>,
+        
       },
       {
-        path: "/gadget/:category",
-        element: <Gadget></Gadget>,
+        path: "/categoryBtn/:category",
+        element: <CategoryBtn></CategoryBtn>,
+        loader: () => fetch("/gadget.json"),
       },
 
       {
